@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.Game {
+  text-align: center;
+  font-size: larger;
+  font-family: cursive;
+  color: palevioletred;
+}
+
+.Button {
+  font-family: cursive;
+  background-color: greenyellow;
+  color: purple;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
