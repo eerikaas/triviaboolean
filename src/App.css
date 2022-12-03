@@ -40,12 +40,17 @@
   background-color: greenyellow;
   color: purple;
   font-size: 20px;
-  padding: 10px 60px;
+  padding: 50px 50px;
   border-radius: 5px;
+  border-color: purple;
   cursor: pointer;
   display: flex;
   align-items: flex-start;
   text-align: center;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
 }
 
 @keyframes App-logo-spin {
@@ -55,4 +60,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Button.Button-incorrect {
+  animation: color-change-incorrect 1.5s;
+}
+
+.Button.Button-correct {
+  animation: color-change-correct 1.5s;
+}
+
+.Button.Button-skip {
+  animation: color-change-skip 1.5s;
+}
+
+@keyframes color-change-incorrect {
+  from {
+    background-color: red;
+  } to {
+    background-color: greenyellow;
+  }
+}
+
+@keyframes color-change-correct {
+  from {
+    background-color: green;
+  } to {
+    background-color: greenyellow;
+  }
+}
+
+@keyframes color-change-skip {
+  from {
+    background-color: rgb(187, 163, 83);
+  } to {
+    background-color: greenyellow;
+  }
+}
+
+.center {
+  text-align: center;
+  display: block;
+  align-items: center;
+  margin: auto;
+  width: 40px;
 }
