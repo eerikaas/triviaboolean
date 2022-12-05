@@ -73,7 +73,7 @@ const LifeIcons = ({ count, lost }) => (
   if (life > 0) {
     return (
       <div>
-      <img src={header} className="center-image"/>
+      <img src={header} alt="background" className="center-image"/>
       <div>
         <p style={{fontSize: "40px"}} className="Game">{decode(insert.question)}</p>
         <button onClick={handleClick} value="True" className="Button">True</button>
