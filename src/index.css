@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://img.freepik.com/free-vector/cute-rainbow-frame-vector-beige-background-cute-hand-drawn-style_53876-126112.jpg?w=2000');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
